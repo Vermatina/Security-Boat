@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(4px + 1.6vmin);
+  color: white;
+}
+
+form {
+  margin: 40px auto; /* Center the form horizontally with margin */
+  padding: 20px; /* Standard padding around the form */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 400px;
+  padding-top: 40px; /* Adjust padding from the top */
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+
+form div {
+  margin-bottom: 15px;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+form input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+
+
+

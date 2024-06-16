@@ -1,0 +1,94 @@
+.dashboard {
+    padding: 20px;
+  }
+  
+  .dashboard h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard input {
+    display: block;
+    margin: 0 auto 20px auto;
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+  }
+
+
+  .dashboard-header {
+    
+    color: #282c34;
+    display: flex;
+    justify-content:end;
+    align-items:end;
+    
+  }
+  
+  .logout-icon {
+    cursor: pointer;
+    font-size: 20px; /* Adjust icon size */
+  }
+  
+  .logout-icon:hover {
+    opacity: 0.8; /* Optional: Reduce opacity on hover */
+  }
+  
+  
+  .movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  
+  
+  .movie-card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px auto;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .pagination button.active {
+    background-color: #0056b3;
+  }
+  
+  .pagination button:hover {
+    background-color: #0056b3;
+  }
+
+  .dashboard {
+    padding: 20px;
+  }
+  
+    .movie-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+  }
+  
+  
+  
+  
